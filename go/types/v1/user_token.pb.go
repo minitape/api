@@ -99,8 +99,8 @@ const file_types_v1_user_token_proto_rawDesc = "" +
 	"\auser_id\x18\x01 \x01(\x03R\x06userId\x12\x14\n" +
 	"\x05token\x18\x02 \x01(\tR\x05token\x12\x1a\n" +
 	"\busername\x18\x03 \x01(\tR\busername\x12\x15\n" +
-	"\x06org_id\x18\x04 \x01(\x03R\x05orgIdB\x8e\x01\n" +
-	"\fcom.types.v1B\x0eUserTokenProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\x06org_id\x18\x04 \x01(\x03R\x05orgIdB\x8c\x01\n" +
+	"\fcom.types.v1B\x0eUserTokenProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_user_token_proto_rawDescOnce sync.Once

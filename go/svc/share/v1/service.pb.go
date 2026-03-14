@@ -7,7 +7,7 @@
 package sharev1
 
 import (
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/known/timestamppb"
@@ -857,8 +857,8 @@ const file_svc_share_v1_service_proto_rawDesc = "" +
 	"\x13GetUserSharedResult\x12(.svc.share.v1.GetUserSharedResultRequest\x1a).svc.share.v1.GetUserSharedResultResponse\"\x00\x12u\n" +
 	"\x16UpdateUserSharedResult\x12+.svc.share.v1.UpdateUserSharedResultRequest\x1a,.svc.share.v1.UpdateUserSharedResultResponse\"\x00\x12u\n" +
 	"\x16DeleteUserSharedResult\x12+.svc.share.v1.DeleteUserSharedResultRequest\x1a,.svc.share.v1.DeleteUserSharedResultResponse\"\x00\x12o\n" +
-	"\x14ListUserSharedResult\x12).svc.share.v1.ListUserSharedResultRequest\x1a*.svc.share.v1.ListUserSharedResultResponse\"\x00B\xa5\x01\n" +
-	"\x10com.svc.share.v1B\fServiceProtoP\x01Z1github.com/humanlogio/api/go/svc/share/v1;sharev1\xa2\x02\x03SSX\xaa\x02\fSvc.Share.V1\xca\x02\fSvc\\Share\\V1\xe2\x02\x18Svc\\Share\\V1\\GPBMetadata\xea\x02\x0eSvc::Share::V1b\x06proto3"
+	"\x14ListUserSharedResult\x12).svc.share.v1.ListUserSharedResultRequest\x1a*.svc.share.v1.ListUserSharedResultResponse\"\x00B\xa3\x01\n" +
+	"\x10com.svc.share.v1B\fServiceProtoP\x01Z/github.com/minitape/api/go/svc/share/v1;sharev1\xa2\x02\x03SSX\xaa\x02\fSvc.Share.V1\xca\x02\fSvc\\Share\\V1\xe2\x02\x18Svc\\Share\\V1\\GPBMetadata\xea\x02\x0eSvc::Share::V1b\x06proto3"
 
 var (
 	file_svc_share_v1_service_proto_rawDescOnce sync.Once

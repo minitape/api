@@ -8,7 +8,7 @@ package organizationv1
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -1911,8 +1911,8 @@ const file_svc_organization_v1_service_proto_rawDesc = "" +
 	"\x17GetStripePublishableKey\x123.svc.organization.v1.GetStripePublishableKeyRequest\x1a4.svc.organization.v1.GetStripePublishableKeyResponse\"\x00\x12\x83\x01\n" +
 	"\x16GetStripeBillingPortal\x122.svc.organization.v1.GetStripeBillingPortalRequest\x1a3.svc.organization.v1.GetStripeBillingPortalResponse\"\x00\x12\x92\x01\n" +
 	"\x1bCreateStripeCustomerSession\x127.svc.organization.v1.CreateStripeCustomerSessionRequest\x1a8.svc.organization.v1.CreateStripeCustomerSessionResponse\"\x00\x12t\n" +
-	"\x11ListPaymentMethod\x12-.svc.organization.v1.ListPaymentMethodRequest\x1a..svc.organization.v1.ListPaymentMethodResponse\"\x00B\xd6\x01\n" +
-	"\x17com.svc.organization.v1B\fServiceProtoP\x01Z?github.com/humanlogio/api/go/svc/organization/v1;organizationv1\xa2\x02\x03SOX\xaa\x02\x13Svc.Organization.V1\xca\x02\x13Svc\\Organization\\V1\xe2\x02\x1fSvc\\Organization\\V1\\GPBMetadata\xea\x02\x15Svc::Organization::V1b\x06proto3"
+	"\x11ListPaymentMethod\x12-.svc.organization.v1.ListPaymentMethodRequest\x1a..svc.organization.v1.ListPaymentMethodResponse\"\x00B\xd4\x01\n" +
+	"\x17com.svc.organization.v1B\fServiceProtoP\x01Z=github.com/minitape/api/go/svc/organization/v1;organizationv1\xa2\x02\x03SOX\xaa\x02\x13Svc.Organization.V1\xca\x02\x13Svc\\Organization\\V1\xe2\x02\x1fSvc\\Organization\\V1\\GPBMetadata\xea\x02\x15Svc::Organization::V1b\x06proto3"
 
 var (
 	file_svc_organization_v1_service_proto_rawDescOnce sync.Once

@@ -119,8 +119,8 @@ const file_types_v1_meta_proto_rawDesc = "" +
 	"machine_id\x18\x02 \x01(\x03R\tmachineIdJ\x04\b\x01\x10\x02\".\n" +
 	"\aResMeta\x12\x1d\n" +
 	"\n" +
-	"machine_id\x18\x02 \x01(\x03R\tmachineIdJ\x04\b\x01\x10\x02B\x89\x01\n" +
-	"\fcom.types.v1B\tMetaProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"machine_id\x18\x02 \x01(\x03R\tmachineIdJ\x04\b\x01\x10\x02B\x87\x01\n" +
+	"\fcom.types.v1B\tMetaProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_meta_proto_rawDescOnce sync.Once

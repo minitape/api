@@ -7,7 +7,7 @@
 package userv1
 
 import (
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/known/timestamppb"
@@ -389,8 +389,8 @@ const file_svc_user_v1_service_public_proto_rawDesc = "" +
 	"\x11PublicUserService\x12V\n" +
 	"\rGetPublicUser\x12!.svc.user.v1.GetPublicUserRequest\x1a\".svc.user.v1.GetPublicUserResponse\x12q\n" +
 	"\x16GetPublicFavoriteQuery\x12*.svc.user.v1.GetPublicFavoriteQueryRequest\x1a+.svc.user.v1.GetPublicFavoriteQueryResponse\x12t\n" +
-	"\x17ListPublicFavoriteQuery\x12+.svc.user.v1.ListPublicFavoriteQueryRequest\x1a,.svc.user.v1.ListPublicFavoriteQueryResponseB\xa4\x01\n" +
-	"\x0fcom.svc.user.v1B\x12ServicePublicProtoP\x01Z/github.com/humanlogio/api/go/svc/user/v1;userv1\xa2\x02\x03SUX\xaa\x02\vSvc.User.V1\xca\x02\vSvc\\User\\V1\xe2\x02\x17Svc\\User\\V1\\GPBMetadata\xea\x02\rSvc::User::V1b\x06proto3"
+	"\x17ListPublicFavoriteQuery\x12+.svc.user.v1.ListPublicFavoriteQueryRequest\x1a,.svc.user.v1.ListPublicFavoriteQueryResponseB\xa2\x01\n" +
+	"\x0fcom.svc.user.v1B\x12ServicePublicProtoP\x01Z-github.com/minitape/api/go/svc/user/v1;userv1\xa2\x02\x03SUX\xaa\x02\vSvc.User.V1\xca\x02\vSvc\\User\\V1\xe2\x02\x17Svc\\User\\V1\\GPBMetadata\xea\x02\rSvc::User::V1b\x06proto3"
 
 var (
 	file_svc_user_v1_service_public_proto_rawDescOnce sync.Once

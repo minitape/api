@@ -8,7 +8,7 @@ package alertv1
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	durationpb "google.golang.org/protobuf/types/known/durationpb"
@@ -1362,8 +1362,8 @@ const file_svc_alert_v1_service_proto_rawDesc = "" +
 	"\fGetAlertRule\x12!.svc.alert.v1.GetAlertRuleRequest\x1a\".svc.alert.v1.GetAlertRuleResponse\x12^\n" +
 	"\x0fUpdateAlertRule\x12$.svc.alert.v1.UpdateAlertRuleRequest\x1a%.svc.alert.v1.UpdateAlertRuleResponse\x12^\n" +
 	"\x0fDeleteAlertRule\x12$.svc.alert.v1.DeleteAlertRuleRequest\x1a%.svc.alert.v1.DeleteAlertRuleResponse\x12X\n" +
-	"\rListAlertRule\x12\".svc.alert.v1.ListAlertRuleRequest\x1a#.svc.alert.v1.ListAlertRuleResponseB\xa5\x01\n" +
-	"\x10com.svc.alert.v1B\fServiceProtoP\x01Z1github.com/humanlogio/api/go/svc/alert/v1;alertv1\xa2\x02\x03SAX\xaa\x02\fSvc.Alert.V1\xca\x02\fSvc\\Alert\\V1\xe2\x02\x18Svc\\Alert\\V1\\GPBMetadata\xea\x02\x0eSvc::Alert::V1b\x06proto3"
+	"\rListAlertRule\x12\".svc.alert.v1.ListAlertRuleRequest\x1a#.svc.alert.v1.ListAlertRuleResponseB\xa3\x01\n" +
+	"\x10com.svc.alert.v1B\fServiceProtoP\x01Z/github.com/minitape/api/go/svc/alert/v1;alertv1\xa2\x02\x03SAX\xaa\x02\fSvc.Alert.V1\xca\x02\fSvc\\Alert\\V1\xe2\x02\x18Svc\\Alert\\V1\\GPBMetadata\xea\x02\x0eSvc::Alert::V1b\x06proto3"
 
 var (
 	file_svc_alert_v1_service_proto_rawDescOnce sync.Once

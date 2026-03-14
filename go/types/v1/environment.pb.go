@@ -81,8 +81,8 @@ const file_types_v1_environment_proto_rawDesc = "" +
 	"\x1atypes/v1/environment.proto\x12\btypes.v1\x1a\x1bbuf/validate/validate.proto\"X\n" +
 	"\vEnvironment\x12\x0e\n" +
 	"\x02id\x18\x01 \x01(\x03R\x02id\x129\n" +
-	"\x04name\x18\x02 \x01(\tB%\xbaH\"r \x10\x03\x18'2\x1a^[a-zA-Z0-9][a-zA-Z0-9-]+$R\x04nameB\x90\x01\n" +
-	"\fcom.types.v1B\x10EnvironmentProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\x04name\x18\x02 \x01(\tB%\xbaH\"r \x10\x03\x18'2\x1a^[a-zA-Z0-9][a-zA-Z0-9-]+$R\x04nameB\x8e\x01\n" +
+	"\fcom.types.v1B\x10EnvironmentProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_environment_proto_rawDescOnce sync.Once

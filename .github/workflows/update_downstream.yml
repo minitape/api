@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       sha:
-        description: 'sha to make downstreams point to'
+        description: "sha to make downstreams point to"
         type: string
   push:
     branches:
@@ -30,7 +30,7 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.TRIGGER_EVENT_GITHUB_PAT }}
-          repository: humanlogio/humanlog-pro
+          repository: minitape/minitape
           event-type: update_api_version
           client-payload: '{"package_version": "${{github.event.inputs.sha || steps.vars.outputs.sha_short}}"}'
 
@@ -38,6 +38,6 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.TRIGGER_EVENT_GITHUB_PAT }}
-          repository: humanlogio/humanlog.io
+          repository: minitape/minitape.com
           event-type: update_api_version
           client-payload: '{"package_version": "${{github.event.inputs.sha || steps.vars.outputs.sha_short}}"}'

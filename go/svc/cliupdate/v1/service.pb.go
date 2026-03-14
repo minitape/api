@@ -7,7 +7,7 @@
 package cliupdatev1
 
 import (
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -184,8 +184,8 @@ const file_svc_cliupdate_v1_service_proto_rawDesc = "" +
 	"\rnext_artifact\x18\x02 \x01(\v2\x19.types.v1.VersionArtifactR\fnextArtifact\x12&\n" +
 	"\x04meta\x18\xe8\a \x01(\v2\x11.types.v1.ResMetaR\x04meta2s\n" +
 	"\rUpdateService\x12b\n" +
-	"\rGetNextUpdate\x12&.svc.cliupdate.v1.GetNextUpdateRequest\x1a'.svc.cliupdate.v1.GetNextUpdateResponse\"\x00B\xc1\x01\n" +
-	"\x14com.svc.cliupdate.v1B\fServiceProtoP\x01Z9github.com/humanlogio/api/go/svc/cliupdate/v1;cliupdatev1\xa2\x02\x03SCX\xaa\x02\x10Svc.Cliupdate.V1\xca\x02\x10Svc\\Cliupdate\\V1\xe2\x02\x1cSvc\\Cliupdate\\V1\\GPBMetadata\xea\x02\x12Svc::Cliupdate::V1b\x06proto3"
+	"\rGetNextUpdate\x12&.svc.cliupdate.v1.GetNextUpdateRequest\x1a'.svc.cliupdate.v1.GetNextUpdateResponse\"\x00B\xbf\x01\n" +
+	"\x14com.svc.cliupdate.v1B\fServiceProtoP\x01Z7github.com/minitape/api/go/svc/cliupdate/v1;cliupdatev1\xa2\x02\x03SCX\xaa\x02\x10Svc.Cliupdate.V1\xca\x02\x10Svc\\Cliupdate\\V1\xe2\x02\x1cSvc\\Cliupdate\\V1\\GPBMetadata\xea\x02\x12Svc::Cliupdate::V1b\x06proto3"
 
 var (
 	file_svc_cliupdate_v1_service_proto_rawDescOnce sync.Once

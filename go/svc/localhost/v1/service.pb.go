@@ -8,7 +8,7 @@ package localhostv1
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/known/timestamppb"
@@ -788,8 +788,8 @@ const file_svc_localhost_v1_service_proto_rawDesc = "" +
 	"\tDoRestart\x12\".svc.localhost.v1.DoRestartRequest\x1a#.svc.localhost.v1.DoRestartResponse\x12T\n" +
 	"\tGetConfig\x12\".svc.localhost.v1.GetConfigRequest\x1a#.svc.localhost.v1.GetConfigResponse\x12T\n" +
 	"\tSetConfig\x12\".svc.localhost.v1.SetConfigRequest\x1a#.svc.localhost.v1.SetConfigResponse\x12Q\n" +
-	"\bGetStats\x12!.svc.localhost.v1.GetStatsRequest\x1a\".svc.localhost.v1.GetStatsResponseB\xc1\x01\n" +
-	"\x14com.svc.localhost.v1B\fServiceProtoP\x01Z9github.com/humanlogio/api/go/svc/localhost/v1;localhostv1\xa2\x02\x03SLX\xaa\x02\x10Svc.Localhost.V1\xca\x02\x10Svc\\Localhost\\V1\xe2\x02\x1cSvc\\Localhost\\V1\\GPBMetadata\xea\x02\x12Svc::Localhost::V1b\x06proto3"
+	"\bGetStats\x12!.svc.localhost.v1.GetStatsRequest\x1a\".svc.localhost.v1.GetStatsResponseB\xbf\x01\n" +
+	"\x14com.svc.localhost.v1B\fServiceProtoP\x01Z7github.com/minitape/api/go/svc/localhost/v1;localhostv1\xa2\x02\x03SLX\xaa\x02\x10Svc.Localhost.V1\xca\x02\x10Svc\\Localhost\\V1\xe2\x02\x1cSvc\\Localhost\\V1\\GPBMetadata\xea\x02\x12Svc::Localhost::V1b\x06proto3"
 
 var (
 	file_svc_localhost_v1_service_proto_rawDescOnce sync.Once

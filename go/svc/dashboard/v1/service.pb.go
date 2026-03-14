@@ -8,7 +8,7 @@ package dashboardv1
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -656,8 +656,8 @@ const file_svc_dashboard_v1_service_proto_rawDesc = "" +
 	"\fGetDashboard\x12%.svc.dashboard.v1.GetDashboardRequest\x1a&.svc.dashboard.v1.GetDashboardResponse\x12f\n" +
 	"\x0fUpdateDashboard\x12(.svc.dashboard.v1.UpdateDashboardRequest\x1a).svc.dashboard.v1.UpdateDashboardResponse\x12f\n" +
 	"\x0fDeleteDashboard\x12(.svc.dashboard.v1.DeleteDashboardRequest\x1a).svc.dashboard.v1.DeleteDashboardResponse\x12`\n" +
-	"\rListDashboard\x12&.svc.dashboard.v1.ListDashboardRequest\x1a'.svc.dashboard.v1.ListDashboardResponseB\xc1\x01\n" +
-	"\x14com.svc.dashboard.v1B\fServiceProtoP\x01Z9github.com/humanlogio/api/go/svc/dashboard/v1;dashboardv1\xa2\x02\x03SDX\xaa\x02\x10Svc.Dashboard.V1\xca\x02\x10Svc\\Dashboard\\V1\xe2\x02\x1cSvc\\Dashboard\\V1\\GPBMetadata\xea\x02\x12Svc::Dashboard::V1b\x06proto3"
+	"\rListDashboard\x12&.svc.dashboard.v1.ListDashboardRequest\x1a'.svc.dashboard.v1.ListDashboardResponseB\xbf\x01\n" +
+	"\x14com.svc.dashboard.v1B\fServiceProtoP\x01Z7github.com/minitape/api/go/svc/dashboard/v1;dashboardv1\xa2\x02\x03SDX\xaa\x02\x10Svc.Dashboard.V1\xca\x02\x10Svc\\Dashboard\\V1\xe2\x02\x1cSvc\\Dashboard\\V1\\GPBMetadata\xea\x02\x12Svc::Dashboard::V1b\x06proto3"
 
 var (
 	file_svc_dashboard_v1_service_proto_rawDescOnce sync.Once

@@ -1164,9 +1164,9 @@ const file_types_v1_alert_proto_rawDesc = "" +
 	"\aAlertOk\"\x0e\n" +
 	"\fAlertPending\"4\n" +
 	"\vAlertFiring\x12%\n" +
-	"\x06labels\x18\x01 \x01(\v2\r.types.v1.ObjR\x06labelsB\x8a\x01\n" +
+	"\x06labels\x18\x01 \x01(\v2\r.types.v1.ObjR\x06labelsB\x88\x01\n" +
 	"\fcom.types.v1B\n" +
-	"AlertProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"AlertProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_alert_proto_rawDescOnce sync.Once

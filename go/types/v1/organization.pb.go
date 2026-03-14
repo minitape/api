@@ -274,8 +274,8 @@ const file_types_v1_organization_proto_rawDesc = "" +
 	"\aPENDING\x10\x01\x12\f\n" +
 	"\bACCEPTED\x10\x02\x12\v\n" +
 	"\aREVOKED\x10\x03\x12\v\n" +
-	"\aEXPIRED\x10\x04B\x91\x01\n" +
-	"\fcom.types.v1B\x11OrganizationProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\aEXPIRED\x10\x04B\x8f\x01\n" +
+	"\fcom.types.v1B\x11OrganizationProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_organization_proto_rawDescOnce sync.Once

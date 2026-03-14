@@ -7,7 +7,7 @@
 package featurev1
 
 import (
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -342,8 +342,8 @@ const file_svc_feature_v1_service_proto_rawDesc = "" +
 	"\n" +
 	"HasFeature\x12!.svc.feature.v1.HasFeatureRequest\x1a\".svc.feature.v1.HasFeatureResponse\x12V\n" +
 	"\vListFeature\x12\".svc.feature.v1.ListFeatureRequest\x1a#.svc.feature.v1.ListFeatureResponse\x12Y\n" +
-	"\fAllowedUsage\x12#.svc.feature.v1.AllowedUsageRequest\x1a$.svc.feature.v1.AllowedUsageResponseB\xb3\x01\n" +
-	"\x12com.svc.feature.v1B\fServiceProtoP\x01Z5github.com/humanlogio/api/go/svc/feature/v1;featurev1\xa2\x02\x03SFX\xaa\x02\x0eSvc.Feature.V1\xca\x02\x0eSvc\\Feature\\V1\xe2\x02\x1aSvc\\Feature\\V1\\GPBMetadata\xea\x02\x10Svc::Feature::V1b\x06proto3"
+	"\fAllowedUsage\x12#.svc.feature.v1.AllowedUsageRequest\x1a$.svc.feature.v1.AllowedUsageResponseB\xb1\x01\n" +
+	"\x12com.svc.feature.v1B\fServiceProtoP\x01Z3github.com/minitape/api/go/svc/feature/v1;featurev1\xa2\x02\x03SFX\xaa\x02\x0eSvc.Feature.V1\xca\x02\x0eSvc\\Feature\\V1\xe2\x02\x1aSvc\\Feature\\V1\\GPBMetadata\xea\x02\x10Svc::Feature::V1b\x06proto3"
 
 var (
 	file_svc_feature_v1_service_proto_rawDescOnce sync.Once

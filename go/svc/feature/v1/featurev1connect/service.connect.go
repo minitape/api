@@ -8,7 +8,7 @@ import (
 	connect "connectrpc.com/connect"
 	context "context"
 	errors "errors"
-	v1 "github.com/humanlogio/api/go/svc/feature/v1"
+	v1 "github.com/minitape/api/go/svc/feature/v1"
 	http "net/http"
 	strings "strings"
 )

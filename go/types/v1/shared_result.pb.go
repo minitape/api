@@ -305,8 +305,8 @@ const file_types_v1_shared_result_proto_rawDesc = "" +
 	"\aINVALID\x10\x00\x12\n" +
 	"\n" +
 	"\x06PUBLIC\x10\x01\x12\x14\n" +
-	"\x10ANYONE_WITH_LINK\x10\x02B\x91\x01\n" +
-	"\fcom.types.v1B\x11SharedResultProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\x10ANYONE_WITH_LINK\x10\x02B\x8f\x01\n" +
+	"\fcom.types.v1B\x11SharedResultProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_shared_result_proto_rawDescOnce sync.Once

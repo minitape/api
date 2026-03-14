@@ -98,8 +98,8 @@ const file_types_v1_machine_proto_rawDesc = "" +
 	"\x02id\x18\x01 \x01(\x03R\x02id\x12\x12\n" +
 	"\x04name\x18\x02 \x01(\tR\x04name\x12)\n" +
 	"\x10operating_system\x18\x03 \x01(\tR\x0foperatingSystem\x12\"\n" +
-	"\farchitecture\x18\x04 \x01(\tR\farchitectureB\x8c\x01\n" +
-	"\fcom.types.v1B\fMachineProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\farchitecture\x18\x04 \x01(\tR\farchitectureB\x8a\x01\n" +
+	"\fcom.types.v1B\fMachineProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_machine_proto_rawDescOnce sync.Once

@@ -7,7 +7,7 @@
 package environmentv1
 
 import (
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
@@ -474,8 +474,8 @@ const file_svc_environment_v1_service_proto_rawDesc = "" +
 	"\atrimmed\x18\x01 \x01(\x04R\atrimmed2\xc2\x01\n" +
 	"\x12EnvironmentService\x12a\n" +
 	"\fListResource\x12'.svc.environment.v1.ListResourceRequest\x1a(.svc.environment.v1.ListResourceResponse\x12I\n" +
-	"\x04Trim\x12\x1f.svc.environment.v1.TrimRequest\x1a .svc.environment.v1.TrimResponseB\xcf\x01\n" +
-	"\x16com.svc.environment.v1B\fServiceProtoP\x01Z=github.com/humanlogio/api/go/svc/environment/v1;environmentv1\xa2\x02\x03SEX\xaa\x02\x12Svc.Environment.V1\xca\x02\x12Svc\\Environment\\V1\xe2\x02\x1eSvc\\Environment\\V1\\GPBMetadata\xea\x02\x14Svc::Environment::V1b\x06proto3"
+	"\x04Trim\x12\x1f.svc.environment.v1.TrimRequest\x1a .svc.environment.v1.TrimResponseB\xcd\x01\n" +
+	"\x16com.svc.environment.v1B\fServiceProtoP\x01Z;github.com/minitape/api/go/svc/environment/v1;environmentv1\xa2\x02\x03SEX\xaa\x02\x12Svc.Environment.V1\xca\x02\x12Svc\\Environment\\V1\xe2\x02\x1eSvc\\Environment\\V1\\GPBMetadata\xea\x02\x14Svc::Environment::V1b\x06proto3"
 
 var (
 	file_svc_environment_v1_service_proto_rawDescOnce sync.Once

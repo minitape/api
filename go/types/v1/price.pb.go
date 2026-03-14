@@ -184,9 +184,9 @@ const file_types_v1_price_proto_rawDesc = "" +
 	"\tRecurring\x12\x1a\n" +
 	"\binterval\x18\x01 \x01(\tR\binterval\x12%\n" +
 	"\x0einterval_count\x18\x02 \x01(\x03R\rintervalCount\x12*\n" +
-	"\x11trial_period_days\x18\x03 \x01(\x03R\x0ftrialPeriodDaysB\x8a\x01\n" +
+	"\x11trial_period_days\x18\x03 \x01(\x03R\x0ftrialPeriodDaysB\x88\x01\n" +
 	"\fcom.types.v1B\n" +
-	"PriceProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"PriceProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_price_proto_rawDescOnce sync.Once

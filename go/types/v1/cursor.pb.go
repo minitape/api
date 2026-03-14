@@ -71,8 +71,8 @@ const file_types_v1_cursor_proto_rawDesc = "" +
 	"\n" +
 	"\x15types/v1/cursor.proto\x12\btypes.v1\" \n" +
 	"\x06Cursor\x12\x16\n" +
-	"\x06opaque\x18\x01 \x01(\fR\x06opaqueB\x8b\x01\n" +
-	"\fcom.types.v1B\vCursorProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\x06opaque\x18\x01 \x01(\fR\x06opaqueB\x89\x01\n" +
+	"\fcom.types.v1B\vCursorProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_cursor_proto_rawDescOnce sync.Once

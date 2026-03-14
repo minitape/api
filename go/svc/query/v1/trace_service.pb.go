@@ -7,7 +7,7 @@
 package queryv1
 
 import (
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -271,8 +271,8 @@ const file_svc_query_v1_trace_service_proto_rawDesc = "" +
 	"\x04span\x18\x01 \x01(\v2\x0e.types.v1.SpanR\x04span2\xa1\x01\n" +
 	"\fTraceService\x12I\n" +
 	"\bGetTrace\x12\x1d.svc.query.v1.GetTraceRequest\x1a\x1e.svc.query.v1.GetTraceResponse\x12F\n" +
-	"\aGetSpan\x12\x1c.svc.query.v1.GetSpanRequest\x1a\x1d.svc.query.v1.GetSpanResponseB\xaa\x01\n" +
-	"\x10com.svc.query.v1B\x11TraceServiceProtoP\x01Z1github.com/humanlogio/api/go/svc/query/v1;queryv1\xa2\x02\x03SQX\xaa\x02\fSvc.Query.V1\xca\x02\fSvc\\Query\\V1\xe2\x02\x18Svc\\Query\\V1\\GPBMetadata\xea\x02\x0eSvc::Query::V1b\x06proto3"
+	"\aGetSpan\x12\x1c.svc.query.v1.GetSpanRequest\x1a\x1d.svc.query.v1.GetSpanResponseB\xa8\x01\n" +
+	"\x10com.svc.query.v1B\x11TraceServiceProtoP\x01Z/github.com/minitape/api/go/svc/query/v1;queryv1\xa2\x02\x03SQX\xaa\x02\fSvc.Query.V1\xca\x02\fSvc\\Query\\V1\xe2\x02\x18Svc\\Query\\V1\\GPBMetadata\xea\x02\x0eSvc::Query::V1b\x06proto3"
 
 var (
 	file_svc_query_v1_trace_service_proto_rawDescOnce sync.Once

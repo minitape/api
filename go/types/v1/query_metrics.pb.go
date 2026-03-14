@@ -240,8 +240,8 @@ const file_types_v1_query_metrics_proto_rawDesc = "" +
 	"\bcpu_time\x18\x02 \x01(\v2\x19.google.protobuf.DurationR\acpuTime\x12*\n" +
 	"\x11memory_peak_bytes\x18\x03 \x01(\x03R\x0fmemoryPeakBytesB\x11\n" +
 	"\x0f_bytes_returnedB\x10\n" +
-	"\x0e_bytes_scannedB\x91\x01\n" +
-	"\fcom.types.v1B\x11QueryMetricsProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\x0e_bytes_scannedB\x8f\x01\n" +
+	"\fcom.types.v1B\x11QueryMetricsProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_query_metrics_proto_rawDescOnce sync.Once

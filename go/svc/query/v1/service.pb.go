@@ -7,7 +7,7 @@
 package queryv1
 
 import (
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	durationpb "google.golang.org/protobuf/types/known/durationpb"
@@ -908,8 +908,8 @@ const file_svc_query_v1_service_proto_rawDesc = "" +
 	"\x06Format\x12\x1b.svc.query.v1.FormatRequest\x1a\x1c.svc.query.v1.FormatResponse\x12@\n" +
 	"\x05Query\x12\x1a.svc.query.v1.QueryRequest\x1a\x1b.svc.query.v1.QueryResponse\x12E\n" +
 	"\x06Stream\x12\x1b.svc.query.v1.StreamRequest\x1a\x1c.svc.query.v1.StreamResponse0\x01\x12R\n" +
-	"\vListSymbols\x12 .svc.query.v1.ListSymbolsRequest\x1a!.svc.query.v1.ListSymbolsResponseB\xa5\x01\n" +
-	"\x10com.svc.query.v1B\fServiceProtoP\x01Z1github.com/humanlogio/api/go/svc/query/v1;queryv1\xa2\x02\x03SQX\xaa\x02\fSvc.Query.V1\xca\x02\fSvc\\Query\\V1\xe2\x02\x18Svc\\Query\\V1\\GPBMetadata\xea\x02\x0eSvc::Query::V1b\x06proto3"
+	"\vListSymbols\x12 .svc.query.v1.ListSymbolsRequest\x1a!.svc.query.v1.ListSymbolsResponseB\xa3\x01\n" +
+	"\x10com.svc.query.v1B\fServiceProtoP\x01Z/github.com/minitape/api/go/svc/query/v1;queryv1\xa2\x02\x03SQX\xaa\x02\fSvc.Query.V1\xca\x02\fSvc\\Query\\V1\xe2\x02\x18Svc\\Query\\V1\\GPBMetadata\xea\x02\x0eSvc::Query::V1b\x06proto3"
 
 var (
 	file_svc_query_v1_service_proto_rawDescOnce sync.Once

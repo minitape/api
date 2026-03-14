@@ -7,7 +7,7 @@
 package tokenv1
 
 import (
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
@@ -501,8 +501,8 @@ const file_svc_token_v1_service_proto_rawDesc = "" +
 	"\x18GenerateEnvironmentToken\x12-.svc.token.v1.GenerateEnvironmentTokenRequest\x1a..svc.token.v1.GenerateEnvironmentTokenResponse\"\x00\x12u\n" +
 	"\x16RevokeEnvironmentToken\x12+.svc.token.v1.RevokeEnvironmentTokenRequest\x1a,.svc.token.v1.RevokeEnvironmentTokenResponse\"\x00\x12l\n" +
 	"\x13GetEnvironmentToken\x12(.svc.token.v1.GetEnvironmentTokenRequest\x1a).svc.token.v1.GetEnvironmentTokenResponse\"\x00\x12o\n" +
-	"\x14ListEnvironmentToken\x12).svc.token.v1.ListEnvironmentTokenRequest\x1a*.svc.token.v1.ListEnvironmentTokenResponse\"\x00B\xa5\x01\n" +
-	"\x10com.svc.token.v1B\fServiceProtoP\x01Z1github.com/humanlogio/api/go/svc/token/v1;tokenv1\xa2\x02\x03STX\xaa\x02\fSvc.Token.V1\xca\x02\fSvc\\Token\\V1\xe2\x02\x18Svc\\Token\\V1\\GPBMetadata\xea\x02\x0eSvc::Token::V1b\x06proto3"
+	"\x14ListEnvironmentToken\x12).svc.token.v1.ListEnvironmentTokenRequest\x1a*.svc.token.v1.ListEnvironmentTokenResponse\"\x00B\xa3\x01\n" +
+	"\x10com.svc.token.v1B\fServiceProtoP\x01Z/github.com/minitape/api/go/svc/token/v1;tokenv1\xa2\x02\x03STX\xaa\x02\fSvc.Token.V1\xca\x02\fSvc\\Token\\V1\xe2\x02\x18Svc\\Token\\V1\\GPBMetadata\xea\x02\x0eSvc::Token::V1b\x06proto3"
 
 var (
 	file_svc_token_v1_service_proto_rawDescOnce sync.Once

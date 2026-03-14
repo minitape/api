@@ -287,8 +287,8 @@ const file_types_v1_data_proto_rawDesc = "" +
 	"\x04Logs\x12!\n" +
 	"\x04logs\x18\x01 \x03(\v2\r.types.v1.LogR\x04logs\"-\n" +
 	"\x05Spans\x12$\n" +
-	"\x05spans\x18\x01 \x03(\v2\x0e.types.v1.SpanR\x05spansB\x89\x01\n" +
-	"\fcom.types.v1B\tDataProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\x05spans\x18\x01 \x03(\v2\x0e.types.v1.SpanR\x05spansB\x87\x01\n" +
+	"\fcom.types.v1B\tDataProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_data_proto_rawDescOnce sync.Once

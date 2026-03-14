@@ -110,8 +110,8 @@ const file_types_v1_otel_scope_proto_rawDesc = "" +
 	"\aversion\x18\x04 \x01(\tR\aversion\x12,\n" +
 	"\n" +
 	"attributes\x18\x05 \x03(\v2\f.types.v1.KVR\n" +
-	"attributesB\x8e\x01\n" +
-	"\fcom.types.v1B\x0eOtelScopeProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"attributesB\x8c\x01\n" +
+	"\fcom.types.v1B\x0eOtelScopeProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_otel_scope_proto_rawDescOnce sync.Once

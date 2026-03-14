@@ -178,8 +178,8 @@ const file_types_v1_environment_token_proto_rawDesc = "" +
 	"lastUsedAt*L\n" +
 	"\x0fEnvironmentRole\x12\x1b\n" +
 	"\x17EnvironmentRole_Invalid\x10\x00\x12\x1c\n" +
-	"\x18EnvironmentRole_Ingestor\x10\x01B\x95\x01\n" +
-	"\fcom.types.v1B\x15EnvironmentTokenProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\x18EnvironmentRole_Ingestor\x10\x01B\x93\x01\n" +
+	"\fcom.types.v1B\x15EnvironmentTokenProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_environment_token_proto_rawDescOnce sync.Once

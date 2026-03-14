@@ -107,8 +107,8 @@ const file_types_v1_version_artifact_proto_rawDesc = "" +
 	"\x06sha256\x18\x02 \x01(\tR\x06sha256\x12\x1c\n" +
 	"\tsignature\x18\x03 \x01(\tR\tsignature\x12\"\n" +
 	"\farchitecture\x18\x04 \x01(\tR\farchitecture\x12)\n" +
-	"\x10operating_system\x18\x05 \x01(\tR\x0foperatingSystemB\x94\x01\n" +
-	"\fcom.types.v1B\x14VersionArtifactProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\x10operating_system\x18\x05 \x01(\tR\x0foperatingSystemB\x92\x01\n" +
+	"\fcom.types.v1B\x14VersionArtifactProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_version_artifact_proto_rawDescOnce sync.Once

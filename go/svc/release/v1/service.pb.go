@@ -7,7 +7,7 @@
 package releasev1
 
 import (
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -878,8 +878,8 @@ const file_svc_release_v1_service_proto_rawDesc = "" +
 	"\x10UnpublishVersion\x12'.svc.release.v1.UnpublishVersionRequest\x1a(.svc.release.v1.UnpublishVersionResponse\"\x00\x12v\n" +
 	"\x15CreateVersionArtifact\x12,.svc.release.v1.CreateVersionArtifactRequest\x1a-.svc.release.v1.CreateVersionArtifactResponse\"\x00\x12v\n" +
 	"\x15DeleteVersionArtifact\x12,.svc.release.v1.DeleteVersionArtifactRequest\x1a-.svc.release.v1.DeleteVersionArtifactResponse\"\x00\x12p\n" +
-	"\x13ListVersionArtifact\x12*.svc.release.v1.ListVersionArtifactRequest\x1a+.svc.release.v1.ListVersionArtifactResponse\"\x00B\xb3\x01\n" +
-	"\x12com.svc.release.v1B\fServiceProtoP\x01Z5github.com/humanlogio/api/go/svc/release/v1;releasev1\xa2\x02\x03SRX\xaa\x02\x0eSvc.Release.V1\xca\x02\x0eSvc\\Release\\V1\xe2\x02\x1aSvc\\Release\\V1\\GPBMetadata\xea\x02\x10Svc::Release::V1b\x06proto3"
+	"\x13ListVersionArtifact\x12*.svc.release.v1.ListVersionArtifactRequest\x1a+.svc.release.v1.ListVersionArtifactResponse\"\x00B\xb1\x01\n" +
+	"\x12com.svc.release.v1B\fServiceProtoP\x01Z3github.com/minitape/api/go/svc/release/v1;releasev1\xa2\x02\x03SRX\xaa\x02\x0eSvc.Release.V1\xca\x02\x0eSvc\\Release\\V1\xe2\x02\x1aSvc\\Release\\V1\\GPBMetadata\xea\x02\x10Svc::Release::V1b\x06proto3"
 
 var (
 	file_svc_release_v1_service_proto_rawDescOnce sync.Once

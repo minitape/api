@@ -608,8 +608,8 @@ const file_types_v1_otel_tracing_proto_rawDesc = "" +
 	"\n" +
 	"\x06CLIENT\x10\x03\x12\f\n" +
 	"\bPRODUCER\x10\x04\x12\f\n" +
-	"\bCONSUMER\x10\x05B\x90\x01\n" +
-	"\fcom.types.v1B\x10OtelTracingProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\bCONSUMER\x10\x05B\x8e\x01\n" +
+	"\fcom.types.v1B\x10OtelTracingProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_otel_tracing_proto_rawDescOnce sync.Once

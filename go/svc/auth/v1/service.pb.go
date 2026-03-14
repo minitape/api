@@ -8,7 +8,7 @@ package authv1
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	durationpb "google.golang.org/protobuf/types/known/durationpb"
@@ -663,8 +663,8 @@ const file_svc_auth_v1_service_proto_rawDesc = "" +
 	"GetAuthURL\x12\x1e.svc.auth.v1.GetAuthURLRequest\x1a\x1f.svc.auth.v1.GetAuthURLResponse\"\x00\x12^\n" +
 	"\x0fBeginDeviceAuth\x12#.svc.auth.v1.BeginDeviceAuthRequest\x1a$.svc.auth.v1.BeginDeviceAuthResponse\"\x00\x12g\n" +
 	"\x12CompleteDeviceAuth\x12&.svc.auth.v1.CompleteDeviceAuthRequest\x1a'.svc.auth.v1.CompleteDeviceAuthResponse\"\x00\x12X\n" +
-	"\rCheckUsername\x12!.svc.auth.v1.CheckUsernameRequest\x1a\".svc.auth.v1.CheckUsernameResponse\"\x00B\x9e\x01\n" +
-	"\x0fcom.svc.auth.v1B\fServiceProtoP\x01Z/github.com/humanlogio/api/go/svc/auth/v1;authv1\xa2\x02\x03SAX\xaa\x02\vSvc.Auth.V1\xca\x02\vSvc\\Auth\\V1\xe2\x02\x17Svc\\Auth\\V1\\GPBMetadata\xea\x02\rSvc::Auth::V1b\x06proto3"
+	"\rCheckUsername\x12!.svc.auth.v1.CheckUsernameRequest\x1a\".svc.auth.v1.CheckUsernameResponse\"\x00B\x9c\x01\n" +
+	"\x0fcom.svc.auth.v1B\fServiceProtoP\x01Z-github.com/minitape/api/go/svc/auth/v1;authv1\xa2\x02\x03SAX\xaa\x02\vSvc.Auth.V1\xca\x02\vSvc\\Auth\\V1\xe2\x02\x17Svc\\Auth\\V1\\GPBMetadata\xea\x02\rSvc::Auth::V1b\x06proto3"
 
 var (
 	file_svc_auth_v1_service_proto_rawDescOnce sync.Once

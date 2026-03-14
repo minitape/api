@@ -1,4 +1,4 @@
-module github.com/humanlogio/api/go
+module github.com/minitape/api/go
 
 go 1.25
 

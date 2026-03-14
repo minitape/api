@@ -80,8 +80,8 @@ const file_types_v1_ulid_proto_rawDesc = "" +
 	"\x13types/v1/ulid.proto\x12\btypes.v1\",\n" +
 	"\x04ULID\x12\x12\n" +
 	"\x04High\x18\x01 \x01(\x04R\x04High\x12\x10\n" +
-	"\x03Low\x18\x02 \x01(\x04R\x03LowB\x89\x01\n" +
-	"\fcom.types.v1B\tUlidProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\x03Low\x18\x02 \x01(\x04R\x03LowB\x87\x01\n" +
+	"\fcom.types.v1B\tUlidProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_ulid_proto_rawDescOnce sync.Once

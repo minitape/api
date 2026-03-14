@@ -8,7 +8,7 @@ package projectv1
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -827,8 +827,8 @@ const file_svc_project_v1_service_proto_rawDesc = "" +
 	"\rUpdateProject\x12$.svc.project.v1.UpdateProjectRequest\x1a%.svc.project.v1.UpdateProjectResponse\x12\\\n" +
 	"\rDeleteProject\x12$.svc.project.v1.DeleteProjectRequest\x1a%.svc.project.v1.DeleteProjectResponse\x12V\n" +
 	"\vListProject\x12\".svc.project.v1.ListProjectRequest\x1a#.svc.project.v1.ListProjectResponse\x12V\n" +
-	"\vSyncProject\x12\".svc.project.v1.SyncProjectRequest\x1a#.svc.project.v1.SyncProjectResponseB\xb3\x01\n" +
-	"\x12com.svc.project.v1B\fServiceProtoP\x01Z5github.com/humanlogio/api/go/svc/project/v1;projectv1\xa2\x02\x03SPX\xaa\x02\x0eSvc.Project.V1\xca\x02\x0eSvc\\Project\\V1\xe2\x02\x1aSvc\\Project\\V1\\GPBMetadata\xea\x02\x10Svc::Project::V1b\x06proto3"
+	"\vSyncProject\x12\".svc.project.v1.SyncProjectRequest\x1a#.svc.project.v1.SyncProjectResponseB\xb1\x01\n" +
+	"\x12com.svc.project.v1B\fServiceProtoP\x01Z3github.com/minitape/api/go/svc/project/v1;projectv1\xa2\x02\x03SPX\xaa\x02\x0eSvc.Project.V1\xca\x02\x0eSvc\\Project\\V1\xe2\x02\x1aSvc\\Project\\V1\\GPBMetadata\xea\x02\x10Svc::Project::V1b\x06proto3"
 
 var (
 	file_svc_project_v1_service_proto_rawDescOnce sync.Once

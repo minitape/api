@@ -8,7 +8,7 @@ package ingestv1
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/known/durationpb"
@@ -234,8 +234,8 @@ const file_svc_ingest_v1_service_proto_rawDesc = "" +
 	"\x14IngestStreamResponse2\xb1\x01\n" +
 	"\rIngestService\x12E\n" +
 	"\x06Ingest\x12\x1c.svc.ingest.v1.IngestRequest\x1a\x1d.svc.ingest.v1.IngestResponse\x12Y\n" +
-	"\fIngestStream\x12\".svc.ingest.v1.IngestStreamRequest\x1a#.svc.ingest.v1.IngestStreamResponse(\x01B\xac\x01\n" +
-	"\x11com.svc.ingest.v1B\fServiceProtoP\x01Z3github.com/humanlogio/api/go/svc/ingest/v1;ingestv1\xa2\x02\x03SIX\xaa\x02\rSvc.Ingest.V1\xca\x02\rSvc\\Ingest\\V1\xe2\x02\x19Svc\\Ingest\\V1\\GPBMetadata\xea\x02\x0fSvc::Ingest::V1b\x06proto3"
+	"\fIngestStream\x12\".svc.ingest.v1.IngestStreamRequest\x1a#.svc.ingest.v1.IngestStreamResponse(\x01B\xaa\x01\n" +
+	"\x11com.svc.ingest.v1B\fServiceProtoP\x01Z1github.com/minitape/api/go/svc/ingest/v1;ingestv1\xa2\x02\x03SIX\xaa\x02\rSvc.Ingest.V1\xca\x02\rSvc\\Ingest\\V1\xe2\x02\x19Svc\\Ingest\\V1\\GPBMetadata\xea\x02\x0fSvc::Ingest::V1b\x06proto3"
 
 var (
 	file_svc_ingest_v1_service_proto_rawDescOnce sync.Once

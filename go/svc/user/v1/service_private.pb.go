@@ -8,7 +8,7 @@ package userv1
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/known/timestamppb"
@@ -1495,8 +1495,8 @@ const file_svc_user_v1_service_private_proto_rawDesc = "" +
 	"\x10GetFavoriteQuery\x12$.svc.user.v1.GetFavoriteQueryRequest\x1a%.svc.user.v1.GetFavoriteQueryResponse\"\x00\x12j\n" +
 	"\x13UpdateFavoriteQuery\x12'.svc.user.v1.UpdateFavoriteQueryRequest\x1a(.svc.user.v1.UpdateFavoriteQueryResponse\"\x00\x12d\n" +
 	"\x11ListFavoriteQuery\x12%.svc.user.v1.ListFavoriteQueryRequest\x1a&.svc.user.v1.ListFavoriteQueryResponse\"\x00\x12j\n" +
-	"\x13DeleteFavoriteQuery\x12'.svc.user.v1.DeleteFavoriteQueryRequest\x1a(.svc.user.v1.DeleteFavoriteQueryResponse\"\x00B\xa5\x01\n" +
-	"\x0fcom.svc.user.v1B\x13ServicePrivateProtoP\x01Z/github.com/humanlogio/api/go/svc/user/v1;userv1\xa2\x02\x03SUX\xaa\x02\vSvc.User.V1\xca\x02\vSvc\\User\\V1\xe2\x02\x17Svc\\User\\V1\\GPBMetadata\xea\x02\rSvc::User::V1b\x06proto3"
+	"\x13DeleteFavoriteQuery\x12'.svc.user.v1.DeleteFavoriteQueryRequest\x1a(.svc.user.v1.DeleteFavoriteQueryResponse\"\x00B\xa3\x01\n" +
+	"\x0fcom.svc.user.v1B\x13ServicePrivateProtoP\x01Z-github.com/minitape/api/go/svc/user/v1;userv1\xa2\x02\x03SUX\xaa\x02\vSvc.User.V1\xca\x02\vSvc\\User\\V1\xe2\x02\x17Svc\\User\\V1\\GPBMetadata\xea\x02\rSvc::User::V1b\x06proto3"
 
 var (
 	file_svc_user_v1_service_private_proto_rawDescOnce sync.Once

@@ -227,8 +227,8 @@ const file_types_v1_subscription_proto_rawDesc = "" +
 	"\x06Paused\x10\x06\x12\f\n" +
 	"\bTrialing\x10\a\x12\n" +
 	"\n" +
-	"\x06Unpaid\x10\bB\x91\x01\n" +
-	"\fcom.types.v1B\x11SubscriptionProtoP\x01Z-github.com/humanlogio/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
+	"\x06Unpaid\x10\bB\x8f\x01\n" +
+	"\fcom.types.v1B\x11SubscriptionProtoP\x01Z+github.com/minitape/api/go/types/v1;typesv1\xa2\x02\x03TXX\xaa\x02\bTypes.V1\xca\x02\bTypes\\V1\xe2\x02\x14Types\\V1\\GPBMetadata\xea\x02\tTypes::V1b\x06proto3"
 
 var (
 	file_types_v1_subscription_proto_rawDescOnce sync.Once

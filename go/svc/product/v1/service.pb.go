@@ -8,7 +8,7 @@ package productv1
 
 import (
 	_ "buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go/buf/validate"
-	v1 "github.com/humanlogio/api/go/types/v1"
+	v1 "github.com/minitape/api/go/types/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -326,8 +326,8 @@ const file_svc_product_v1_service_proto_rawDesc = "" +
 	"\x0eProductService\x12S\n" +
 	"\n" +
 	"GetProduct\x12!.svc.product.v1.GetProductRequest\x1a\".svc.product.v1.GetProductResponse\x12V\n" +
-	"\vListProduct\x12\".svc.product.v1.ListProductRequest\x1a#.svc.product.v1.ListProductResponseB\xb3\x01\n" +
-	"\x12com.svc.product.v1B\fServiceProtoP\x01Z5github.com/humanlogio/api/go/svc/product/v1;productv1\xa2\x02\x03SPX\xaa\x02\x0eSvc.Product.V1\xca\x02\x0eSvc\\Product\\V1\xe2\x02\x1aSvc\\Product\\V1\\GPBMetadata\xea\x02\x10Svc::Product::V1b\x06proto3"
+	"\vListProduct\x12\".svc.product.v1.ListProductRequest\x1a#.svc.product.v1.ListProductResponseB\xb1\x01\n" +
+	"\x12com.svc.product.v1B\fServiceProtoP\x01Z3github.com/minitape/api/go/svc/product/v1;productv1\xa2\x02\x03SPX\xaa\x02\x0eSvc.Product.V1\xca\x02\x0eSvc\\Product\\V1\xe2\x02\x1aSvc\\Product\\V1\\GPBMetadata\xea\x02\x10Svc::Product::V1b\x06proto3"
 
 var (
 	file_svc_product_v1_service_proto_rawDescOnce sync.Once
