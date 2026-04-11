@@ -150,7 +150,7 @@ message ParseConfig {
   KV kv = 4;
 }
 
-message ServeLocalhostConfig {
+message ServerConfig {
   message OTLP {
     int64 grpc_port = 1;
     int64 http_port = 2;
@@ -160,6 +160,7 @@ message ServeLocalhostConfig {
   google.protobuf.Struct engine_config = 3;
   optional bool show_in_systray = 4;
   optional string log_dir = 5;
+  string bind_address = 6;
   OTLP otlp = 101;
 }
 
@@ -177,7 +178,7 @@ message RuntimeConfig {
   message ExperimentalFeatures {
     optional string release_channel = 1;
     optional bool send_logs_to_cloud = 2;
-    optional ServeLocalhostConfig serve_localhost = 3;
+    optional ServerConfig server = 3;
     optional ProjectsConfig projects = 4;
   }
   message ClientConfig {
