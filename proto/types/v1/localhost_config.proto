@@ -175,12 +175,6 @@ message ProjectsConfig {
 
 message RuntimeConfig {
   message Features {}
-  message ExperimentalFeatures {
-    optional string release_channel = 1;
-    optional bool send_logs_to_cloud = 2;
-    optional ServerConfig server = 3;
-    optional ProjectsConfig projects = 4;
-  }
   message ClientConfig {
     enum HTTPProtocol {
       HTTP2 = 0;
@@ -197,8 +191,10 @@ message RuntimeConfig {
   optional bool interrupt = 1;
   optional bool skip_check_for_updates = 2;
   Features features = 3;
-  ExperimentalFeatures experimental_features = 4;
   ClientConfig api_client = 5;
+  optional string release_channel = 6;
+  optional ServerConfig server = 8;
+  optional ProjectsConfig projects = 9;
 }
 
 message LocalhostConfig {
